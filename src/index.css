@@ -6,3 +6,34 @@
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
 } 
+
+body {
+  background-color: antiquewhite;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type='text'] {
+  background-color: aquamarine ;
+  margin-right: 1rem;
+}
+
+input[type='submit'] {
+  color: #FFF;
+  background-color: crimson;
+  width: 5rem;
+  height: 2rem;
+}
+
+form {
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style: none;
+}
