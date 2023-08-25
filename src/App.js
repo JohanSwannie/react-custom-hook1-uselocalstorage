@@ -20,6 +20,11 @@ function App() {
     "tabletennis",
     "athletics",
     "cricket",
+    "marathon",
+    "bowls",
+    "volleyball",
+    "badminton",
+    "squash",
   ];
 
   const setTheErrorMessage = () => {
