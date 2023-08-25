@@ -13,9 +13,11 @@ const CustomerSportList = ({ setShowForm }) => {
         </button>
       </div>
       <ul className="cust__sport-list">
-        {custSportList.map((sport, index) => (
-          <li key={index}>{sport}</li>
-        ))}
+        {custSportList.length > 0 ? (
+          custSportList.map((sport, index) => <li key={index}>{sport}</li>)
+        ) : (
+          <li>No sport in your list of sports</li>
+        )}
       </ul>
     </>
   );
